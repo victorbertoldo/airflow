@@ -1,0 +1,21 @@
+FROM selenium/standalone-chrome:latest
+# FROM selenium/standalone-firefox:latest
+
+USER root
+
+# Install Python and pip
+RUN apt-get update && \
+    apt-get install -y python3 python3-pip
+
+# Create downloads directory
+RUN mkdir /home/seluser/downloads 
+
+# Install Python packages
+RUN pip3 install selenium bs4 lxml docker
+
+# Switch back to the seluser user
+USER seluser
+
+# Copy the Python script
+COPY ./external/webscrapping/get_data.py /home/seluser/
+COPY ./external/webscrapping/teste.py /home/seluser/

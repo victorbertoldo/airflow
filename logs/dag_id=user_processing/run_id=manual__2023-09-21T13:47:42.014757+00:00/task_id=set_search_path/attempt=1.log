@@ -1,0 +1,16 @@
+[2023-09-21T13:47:45.260+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: user_processing.set_search_path manual__2023-09-21T13:47:42.014757+00:00 [queued]>
+[2023-09-21T13:47:45.274+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: user_processing.set_search_path manual__2023-09-21T13:47:42.014757+00:00 [queued]>
+[2023-09-21T13:47:45.274+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-09-21T13:47:45.293+0000] {taskinstance.py:1327} INFO - Executing <Task(PostgresOperator): set_search_path> on 2023-09-21 13:47:42.014757+00:00
+[2023-09-21T13:47:45.300+0000] {standard_task_runner.py:57} INFO - Started process 9284 to run task
+[2023-09-21T13:47:45.304+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'set_search_path', 'manual__2023-09-21T13:47:42.014757+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpmtc2ksza']
+[2023-09-21T13:47:45.305+0000] {standard_task_runner.py:85} INFO - Job 40: Subtask set_search_path
+[2023-09-21T13:47:45.367+0000] {task_command.py:410} INFO - Running <TaskInstance: user_processing.set_search_path manual__2023-09-21T13:47:42.014757+00:00 [running]> on host 90548f7cf83f
+[2023-09-21T13:47:45.465+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='user_processing' AIRFLOW_CTX_TASK_ID='set_search_path' AIRFLOW_CTX_EXECUTION_DATE='2023-09-21T13:47:42.014757+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-09-21T13:47:42.014757+00:00'
+[2023-09-21T13:47:45.468+0000] {sql.py:265} INFO - Executing: SET search_path TO ***_ini
+[2023-09-21T13:47:45.480+0000] {base.py:73} INFO - Using connection ID '***' for task execution.
+[2023-09-21T13:47:45.573+0000] {base.py:73} INFO - Using connection ID '***' for task execution.
+[2023-09-21T13:47:45.596+0000] {sql.py:375} INFO - Running statement: SET search_path TO ***_ini, parameters: None
+[2023-09-21T13:47:45.609+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=set_search_path, execution_date=20230921T134742, start_date=20230921T134745, end_date=20230921T134745
+[2023-09-21T13:47:45.632+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-09-21T13:47:45.668+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

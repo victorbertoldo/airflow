@@ -1,0 +1,16 @@
+[2023-09-30T00:00:03.668+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: group_dag.downloads.download_c scheduled__2023-09-29T00:00:00+00:00 [queued]>
+[2023-09-30T00:00:03.683+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: group_dag.downloads.download_c scheduled__2023-09-29T00:00:00+00:00 [queued]>
+[2023-09-30T00:00:03.684+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-09-30T00:00:03.709+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): download_c> on 2023-09-29 00:00:00+00:00
+[2023-09-30T00:00:03.714+0000] {standard_task_runner.py:57} INFO - Started process 4836 to run task
+[2023-09-30T00:00:03.718+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'group_dag.downloads', 'download_c', 'scheduled__2023-09-29T00:00:00+00:00', '--job-id', '423', '--raw', '--subdir', 'DAGS_FOLDER/group_dag.py', '--cfg-path', '/tmp/tmpv4a68su7']
+[2023-09-30T00:00:03.719+0000] {standard_task_runner.py:85} INFO - Job 423: Subtask download_c
+[2023-09-30T00:00:03.777+0000] {task_command.py:410} INFO - Running <TaskInstance: group_dag.downloads.download_c scheduled__2023-09-29T00:00:00+00:00 [running]> on host 6047a1c7123c
+[2023-09-30T00:00:03.869+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='group_dag.downloads' AIRFLOW_CTX_TASK_ID='download_c' AIRFLOW_CTX_EXECUTION_DATE='2023-09-29T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-29T00:00:00+00:00'
+[2023-09-30T00:00:03.870+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-09-30T00:00:03.871+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'sleep 10']
+[2023-09-30T00:00:03.879+0000] {subprocess.py:86} INFO - Output:
+[2023-09-30T00:00:13.882+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-09-30T00:00:13.921+0000] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=group_dag.downloads, task_id=download_c, execution_date=20230929T000000, start_date=20230930T000003, end_date=20230930T000013
+[2023-09-30T00:00:13.980+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-09-30T00:00:13.997+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

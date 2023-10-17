@@ -1,0 +1,431 @@
+[2023-10-16T23:30:03.475+0000] {processor.py:157} INFO - Started process (PID=2482) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:30:03.477+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:30:03.478+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:30:03.478+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:30:03.492+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:30:03.749+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:30:03.748+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:30:03.784+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:30:03.783+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_dag to 2023-10-16T00:00:00+00:00, run_after=2023-10-17T00:00:00+00:00
+[2023-10-16T23:30:03.831+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.365 seconds
+[2023-10-16T23:30:34.686+0000] {processor.py:157} INFO - Started process (PID=2503) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:30:34.687+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:30:34.688+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:30:34.688+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:30:34.700+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:30:34.735+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:30:34.735+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:30:34.768+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:30:34.767+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_dag to 2023-10-16T00:00:00+00:00, run_after=2023-10-17T00:00:00+00:00
+[2023-10-16T23:30:34.806+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.126 seconds
+[2023-10-16T23:30:50.649+0000] {processor.py:157} INFO - Started process (PID=2509) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:30:50.654+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:30:50.655+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:30:50.655+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:30:50.669+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:30:50.904+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:30:50.904+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:30:50.938+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:30:50.938+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_dag to 2023-10-16T00:00:00+00:00, run_after=2023-10-17T00:00:00+00:00
+[2023-10-16T23:30:50.972+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.330 seconds
+[2023-10-16T23:31:21.655+0000] {processor.py:157} INFO - Started process (PID=2530) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:31:21.656+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:31:21.657+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:31:21.657+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:31:21.674+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:31:21.709+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:31:21.709+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:31:21.750+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:31:21.750+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_dag to 2023-10-16T00:00:00+00:00, run_after=2023-10-17T00:00:00+00:00
+[2023-10-16T23:31:21.785+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.135 seconds
+[2023-10-16T23:31:24.949+0000] {processor.py:157} INFO - Started process (PID=2534) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:31:24.950+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:31:24.951+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:31:24.951+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:31:24.965+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:31:25.135+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:31:25.135+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:web_scraping_playwright_dag
+[2023-10-16T23:31:25.155+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:31:25.155+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:web_scraping_playwright_dag
+[2023-10-16T23:31:25.169+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:31:25.169+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:web_scraping_playwright_dag
+[2023-10-16T23:31:25.188+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:31:25.188+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:31:25.207+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:31:25.207+0000] {dag.py:2763} INFO - Creating ORM DAG for web_scraping_playwright_dag
+[2023-10-16T23:31:25.230+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:31:25.225+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:31:25.268+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.326 seconds
+[2023-10-16T23:31:55.325+0000] {processor.py:157} INFO - Started process (PID=2556) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:31:55.329+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:31:55.333+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:31:55.332+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:31:55.345+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:31:55.391+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:31:55.391+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:31:55.430+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:31:55.429+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:31:55.465+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.145 seconds
+[2023-10-16T23:32:25.844+0000] {processor.py:157} INFO - Started process (PID=2576) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:32:25.846+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:32:25.849+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:32:25.848+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:32:25.858+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:32:25.906+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:32:25.906+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:32:25.941+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:32:25.941+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:32:25.977+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.137 seconds
+[2023-10-16T23:32:56.004+0000] {processor.py:157} INFO - Started process (PID=2597) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:32:56.006+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:32:56.007+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:32:56.007+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:32:56.014+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:32:56.050+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:32:56.049+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:32:56.077+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:32:56.077+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:32:56.107+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.107 seconds
+[2023-10-16T23:33:26.173+0000] {processor.py:157} INFO - Started process (PID=2618) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:33:26.174+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:33:26.175+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:33:26.175+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:33:26.185+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:33:26.219+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:33:26.218+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:33:26.245+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:33:26.245+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:33:26.274+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.108 seconds
+[2023-10-16T23:33:57.147+0000] {processor.py:157} INFO - Started process (PID=2639) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:33:57.149+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:33:57.150+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:33:57.150+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:33:57.161+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:33:57.197+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:33:57.197+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:33:57.226+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:33:57.226+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:33:57.259+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.116 seconds
+[2023-10-16T23:34:27.910+0000] {processor.py:157} INFO - Started process (PID=2660) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:34:27.911+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:34:27.913+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:34:27.912+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:34:27.921+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:34:27.956+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:34:27.956+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:34:27.982+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:34:27.982+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:34:28.012+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.108 seconds
+[2023-10-16T23:34:58.101+0000] {processor.py:157} INFO - Started process (PID=2682) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:34:58.103+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:34:58.106+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:34:58.105+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:34:58.123+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:34:58.182+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:34:58.182+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:34:58.228+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:34:58.228+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:34:58.279+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.185 seconds
+[2023-10-16T23:35:28.321+0000] {processor.py:157} INFO - Started process (PID=2703) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:35:28.322+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:35:28.326+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:35:28.325+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:35:28.335+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:35:28.368+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:35:28.368+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:35:28.403+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:35:28.403+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:35:28.446+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.131 seconds
+[2023-10-16T23:35:58.653+0000] {processor.py:157} INFO - Started process (PID=2720) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:35:58.658+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:35:58.661+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:35:58.660+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:35:58.673+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:35:58.715+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:35:58.715+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:35:58.755+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:35:58.754+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:35:58.799+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.151 seconds
+[2023-10-16T23:36:29.506+0000] {processor.py:157} INFO - Started process (PID=2741) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:36:29.513+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:36:29.517+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:36:29.515+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:36:29.531+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:36:29.588+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:36:29.587+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:36:29.633+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:36:29.632+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:36:29.669+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.166 seconds
+[2023-10-16T23:36:59.849+0000] {processor.py:157} INFO - Started process (PID=2762) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:36:59.854+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:36:59.855+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:36:59.854+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:36:59.866+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:36:59.905+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:36:59.905+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:36:59.952+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:36:59.952+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:36:59.992+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.150 seconds
+[2023-10-16T23:37:30.147+0000] {processor.py:157} INFO - Started process (PID=2783) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:37:30.154+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:37:30.155+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:37:30.155+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:37:30.166+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:37:30.210+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:37:30.210+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:37:30.253+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:37:30.252+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:37:30.288+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.145 seconds
+[2023-10-16T23:38:00.528+0000] {processor.py:157} INFO - Started process (PID=2804) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:38:00.531+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:38:00.533+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:38:00.532+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:38:00.542+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:38:00.580+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:38:00.580+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:38:00.613+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:38:00.613+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:38:00.651+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.129 seconds
+[2023-10-16T23:38:30.828+0000] {processor.py:157} INFO - Started process (PID=2826) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:38:30.829+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:38:30.830+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:38:30.830+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:38:30.842+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:38:30.881+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:38:30.881+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:38:30.928+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:38:30.928+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:38:31.009+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.187 seconds
+[2023-10-16T23:39:01.089+0000] {processor.py:157} INFO - Started process (PID=2847) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:39:01.105+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:39:01.106+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:39:01.105+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:39:01.115+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:39:01.149+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:39:01.149+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:39:01.182+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:39:01.182+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:39:01.214+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.132 seconds
+[2023-10-16T23:39:31.282+0000] {processor.py:157} INFO - Started process (PID=2868) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:39:31.283+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:39:31.285+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:39:31.285+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:39:31.300+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:39:31.361+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:39:31.361+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:39:31.415+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:39:31.415+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:39:31.457+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.184 seconds
+[2023-10-16T23:40:01.631+0000] {processor.py:157} INFO - Started process (PID=2889) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:40:01.636+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:40:01.638+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:40:01.637+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:40:01.650+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:40:01.731+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:40:01.731+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:40:01.787+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:40:01.787+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:40:01.843+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.221 seconds
+[2023-10-16T23:40:32.016+0000] {processor.py:157} INFO - Started process (PID=2910) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:40:32.017+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:40:32.018+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:40:32.018+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:40:32.031+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:40:32.070+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:40:32.069+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:40:32.104+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:40:32.104+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:40:32.134+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.124 seconds
+[2023-10-16T23:41:02.191+0000] {processor.py:157} INFO - Started process (PID=2931) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:41:02.194+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:41:02.195+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:41:02.195+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:41:02.208+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:41:02.252+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:41:02.251+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:41:02.289+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:41:02.289+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:41:02.322+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.140 seconds
+[2023-10-16T23:41:32.421+0000] {processor.py:157} INFO - Started process (PID=2952) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:41:32.422+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:41:32.423+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:41:32.423+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:41:32.435+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:41:32.475+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:41:32.475+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:41:32.537+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:41:32.536+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:41:32.592+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.181 seconds
+[2023-10-16T23:42:02.750+0000] {processor.py:157} INFO - Started process (PID=2973) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:42:02.753+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:42:02.754+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:42:02.753+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:42:02.766+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:42:02.808+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:42:02.807+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:42:02.849+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:42:02.848+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:42:02.882+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.140 seconds
+[2023-10-16T23:42:33.203+0000] {processor.py:157} INFO - Started process (PID=2994) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:42:33.204+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:42:33.205+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:42:33.205+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:42:33.217+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:42:33.260+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:42:33.260+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:42:33.295+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:42:33.294+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:42:33.326+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.130 seconds
+[2023-10-16T23:43:03.423+0000] {processor.py:157} INFO - Started process (PID=3015) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:43:03.425+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:43:03.426+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:43:03.426+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:43:03.436+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:43:03.474+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:43:03.473+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:43:03.510+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:43:03.510+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:43:03.542+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.124 seconds
+[2023-10-16T23:43:33.813+0000] {processor.py:157} INFO - Started process (PID=3036) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:43:33.814+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:43:33.816+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:43:33.815+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:43:33.828+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:43:33.865+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:43:33.864+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:43:33.902+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:43:33.902+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:43:33.933+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.126 seconds
+[2023-10-16T23:44:04.059+0000] {processor.py:157} INFO - Started process (PID=3058) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:44:04.062+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:44:04.063+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:44:04.063+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:44:04.075+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:44:04.115+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:44:04.115+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:44:04.151+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:44:04.150+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:44:04.183+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.132 seconds
+[2023-10-16T23:44:34.284+0000] {processor.py:157} INFO - Started process (PID=3079) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:44:34.342+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:44:34.343+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:44:34.343+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:44:34.350+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:44:34.396+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:44:34.396+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:44:34.436+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:44:34.435+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:44:34.474+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.195 seconds
+[2023-10-16T23:45:04.812+0000] {processor.py:157} INFO - Started process (PID=3106) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:45:04.814+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:45:04.816+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:45:04.815+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:45:04.831+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:45:04.871+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:45:04.871+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:45:04.904+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:45:04.904+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:45:04.938+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.136 seconds
+[2023-10-16T23:45:34.978+0000] {processor.py:157} INFO - Started process (PID=3129) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:45:34.981+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:45:34.983+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:45:34.982+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:45:34.995+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:45:35.038+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:45:35.037+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:45:35.074+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:45:35.073+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:45:35.103+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.133 seconds
+[2023-10-16T23:46:05.385+0000] {processor.py:157} INFO - Started process (PID=3150) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:46:05.386+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:46:05.387+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:46:05.387+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:46:05.398+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:46:05.440+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:46:05.440+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:46:05.476+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:46:05.475+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:46:05.509+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.133 seconds
+[2023-10-16T23:46:35.621+0000] {processor.py:157} INFO - Started process (PID=3171) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:46:35.625+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:46:35.626+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:46:35.626+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:46:35.637+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:46:35.677+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:46:35.677+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:46:35.718+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:46:35.717+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:46:35.750+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.139 seconds
+[2023-10-16T23:47:05.805+0000] {processor.py:157} INFO - Started process (PID=3192) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:47:05.812+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:47:05.817+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:47:05.816+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:47:05.828+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:47:05.877+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:47:05.877+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:47:05.928+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:47:05.927+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:47:05.957+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.156 seconds
+[2023-10-16T23:47:36.137+0000] {processor.py:157} INFO - Started process (PID=3213) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:47:36.139+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:47:36.140+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:47:36.140+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:47:36.154+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:47:36.202+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:47:36.202+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:47:36.244+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:47:36.244+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:47:36.286+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.157 seconds
+[2023-10-16T23:48:06.534+0000] {processor.py:157} INFO - Started process (PID=3234) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:48:06.551+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:48:06.554+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:48:06.553+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:48:06.562+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:48:06.600+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:48:06.599+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:48:06.641+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:48:06.641+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:48:06.678+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.150 seconds
+[2023-10-16T23:48:36.757+0000] {processor.py:157} INFO - Started process (PID=3255) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:48:36.759+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:48:36.760+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:48:36.760+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:48:36.771+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:48:36.815+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:48:36.815+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:48:36.854+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:48:36.853+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:48:36.892+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.144 seconds
+[2023-10-16T23:49:07.080+0000] {processor.py:157} INFO - Started process (PID=3276) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:49:07.081+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:49:07.083+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:49:07.082+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:49:07.094+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:49:07.143+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:49:07.142+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:49:07.180+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:49:07.179+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:49:07.210+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.135 seconds
+[2023-10-16T23:49:37.385+0000] {processor.py:157} INFO - Started process (PID=3297) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:49:37.388+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:49:37.394+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:49:37.390+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:49:37.417+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:49:37.470+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:49:37.467+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:49:37.522+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:49:37.521+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:49:37.571+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.201 seconds
+[2023-10-16T23:50:07.610+0000] {processor.py:157} INFO - Started process (PID=3318) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:50:07.616+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:50:07.617+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:50:07.617+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:50:07.630+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:50:07.681+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:50:07.681+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:50:07.721+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:50:07.721+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:50:07.755+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.151 seconds
+[2023-10-16T23:50:38.620+0000] {processor.py:157} INFO - Started process (PID=3340) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:50:38.621+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:50:38.622+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:50:38.621+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:50:38.633+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:50:38.673+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:50:38.673+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:50:38.712+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:50:38.711+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:50:38.742+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.126 seconds
+[2023-10-16T23:51:09.738+0000] {processor.py:157} INFO - Started process (PID=3361) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:51:09.739+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:51:09.740+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:51:09.740+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:51:09.753+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:51:09.805+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:51:09.804+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:51:09.840+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:51:09.840+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:51:09.872+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.138 seconds
+[2023-10-16T23:51:39.922+0000] {processor.py:157} INFO - Started process (PID=3382) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:51:39.924+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:51:39.925+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:51:39.925+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:51:39.937+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:51:39.975+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:51:39.975+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:51:40.011+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:51:40.011+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:51:40.043+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.124 seconds
+[2023-10-16T23:52:10.212+0000] {processor.py:157} INFO - Started process (PID=3403) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:52:10.214+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:52:10.218+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:52:10.217+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:52:10.228+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:52:10.272+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:52:10.271+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:52:10.311+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:52:10.311+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:52:10.352+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.148 seconds
+[2023-10-16T23:52:40.564+0000] {processor.py:157} INFO - Started process (PID=3424) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:52:40.565+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:52:40.566+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:52:40.565+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:52:40.576+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:52:40.620+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:52:40.620+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:52:40.654+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:52:40.654+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:52:40.688+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.129 seconds
+[2023-10-16T23:53:10.772+0000] {processor.py:157} INFO - Started process (PID=3445) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:53:10.776+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:53:10.778+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:53:10.777+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:53:10.791+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:53:10.832+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:53:10.832+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:53:10.870+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:53:10.869+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:53:10.901+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.138 seconds
+[2023-10-16T23:53:41.000+0000] {processor.py:157} INFO - Started process (PID=3466) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:53:41.002+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:53:41.005+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:53:41.004+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:53:41.014+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:53:41.050+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:53:41.049+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:53:41.084+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:53:41.084+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:53:41.120+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.126 seconds
+[2023-10-16T23:54:11.267+0000] {processor.py:157} INFO - Started process (PID=3487) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:54:11.268+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:54:11.269+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:54:11.269+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:54:11.278+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:54:11.319+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:54:11.318+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:54:11.367+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:54:11.366+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:54:11.407+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.144 seconds
+[2023-10-16T23:54:41.533+0000] {processor.py:157} INFO - Started process (PID=3508) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:54:41.536+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:54:41.538+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:54:41.537+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:54:41.584+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:54:41.654+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:54:41.654+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:54:41.687+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:54:41.687+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:54:41.721+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.200 seconds
+[2023-10-16T23:55:11.830+0000] {processor.py:157} INFO - Started process (PID=3529) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:55:11.832+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:55:11.833+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:55:11.833+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:55:11.844+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:55:11.889+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:55:11.889+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:55:11.929+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:55:11.929+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:55:11.957+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.135 seconds
+[2023-10-16T23:55:42.185+0000] {processor.py:157} INFO - Started process (PID=3551) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:55:42.190+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:55:42.191+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:55:42.191+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:55:42.203+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:55:42.253+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:55:42.253+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:55:42.313+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:55:42.312+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:55:42.354+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.177 seconds
+[2023-10-16T23:56:12.497+0000] {processor.py:157} INFO - Started process (PID=3572) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:56:12.499+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:56:12.501+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:56:12.500+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:56:12.510+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:56:12.556+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:56:12.556+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:56:12.602+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:56:12.602+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:56:12.635+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.147 seconds
+[2023-10-16T23:56:42.689+0000] {processor.py:157} INFO - Started process (PID=3593) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:56:42.690+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:56:42.692+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:56:42.691+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:56:42.706+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:56:42.742+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:56:42.742+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:56:42.776+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:56:42.776+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:56:42.806+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.126 seconds
+[2023-10-16T23:57:12.854+0000] {processor.py:157} INFO - Started process (PID=3614) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:57:12.856+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:57:12.857+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:57:12.856+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:57:12.869+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:57:12.908+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:57:12.908+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:57:12.951+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:57:12.951+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:57:12.993+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.146 seconds
+[2023-10-16T23:57:43.072+0000] {processor.py:157} INFO - Started process (PID=3635) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:57:43.077+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:57:43.079+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:57:43.079+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:57:43.089+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:57:43.128+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:57:43.128+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:57:43.160+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:57:43.160+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:57:43.196+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.134 seconds
+[2023-10-16T23:58:13.526+0000] {processor.py:157} INFO - Started process (PID=3656) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:58:13.532+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:58:13.533+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:58:13.533+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:58:13.546+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:58:13.584+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:58:13.584+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:58:13.616+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:58:13.616+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:58:13.648+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.128 seconds
+[2023-10-16T23:58:43.846+0000] {processor.py:157} INFO - Started process (PID=3677) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:58:43.848+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:58:43.850+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:58:43.849+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:58:43.889+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:58:43.948+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:58:43.948+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:58:44.010+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:58:44.010+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:58:44.049+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.220 seconds
+[2023-10-16T23:59:14.149+0000] {processor.py:157} INFO - Started process (PID=3699) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:59:14.154+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:59:14.156+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:59:14.155+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:59:14.166+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:59:14.199+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:59:14.199+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:59:14.232+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:59:14.231+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:59:14.270+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.127 seconds
+[2023-10-16T23:59:44.362+0000] {processor.py:157} INFO - Started process (PID=3721) to work on /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:59:44.364+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/web_scrapping_playwrigth.py for tasks to queue
+[2023-10-16T23:59:44.367+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:59:44.366+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:59:44.379+0000] {processor.py:836} INFO - DAG(s) dict_keys(['web_scraping_playwright_dag']) retrieved from /opt/airflow/dags/web_scrapping_playwrigth.py
+[2023-10-16T23:59:44.418+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:59:44.417+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-10-16T23:59:44.451+0000] {logging_mixin.py:150} INFO - [2023-10-16T23:59:44.451+0000] {dag.py:3504} INFO - Setting next_dagrun for web_scraping_playwright_dag to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-10-16T23:59:44.486+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/web_scrapping_playwrigth.py took 0.131 seconds

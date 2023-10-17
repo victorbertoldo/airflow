@@ -1,0 +1,17 @@
+[2023-09-27T17:17:05.215+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: web_scraping_dag.see_files manual__2023-09-27T17:16:53.510198+00:00 [queued]>
+[2023-09-27T17:17:05.272+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: web_scraping_dag.see_files manual__2023-09-27T17:16:53.510198+00:00 [queued]>
+[2023-09-27T17:17:05.275+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2023-09-27T17:17:05.342+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): see_files> on 2023-09-27 17:16:53.510198+00:00
+[2023-09-27T17:17:05.363+0000] {standard_task_runner.py:57} INFO - Started process 111 to run task
+[2023-09-27T17:17:05.369+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'web_scraping_dag', 'see_files', 'manual__2023-09-27T17:16:53.510198+00:00', '--job-id', '293', '--raw', '--subdir', 'DAGS_FOLDER/web_scrapping_test.py', '--cfg-path', '/tmp/tmp382c7ij3']
+[2023-09-27T17:17:05.372+0000] {standard_task_runner.py:85} INFO - Job 293: Subtask see_files
+[2023-09-27T17:17:05.699+0000] {task_command.py:410} INFO - Running <TaskInstance: web_scraping_dag.see_files manual__2023-09-27T17:16:53.510198+00:00 [running]> on host a9515a1e3e45
+[2023-09-27T17:17:06.557+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='web_scraping_dag' AIRFLOW_CTX_TASK_ID='see_files' AIRFLOW_CTX_EXECUTION_DATE='2023-09-27T17:16:53.510198+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-09-27T17:16:53.510198+00:00'
+[2023-09-27T17:17:06.586+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-09-27T17:17:06.588+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'ls -l']
+[2023-09-27T17:17:06.703+0000] {subprocess.py:86} INFO - Output:
+[2023-09-27T17:17:06.765+0000] {subprocess.py:93} INFO - total 0
+[2023-09-27T17:17:06.780+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-09-27T17:17:07.372+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=web_scraping_dag, task_id=see_files, execution_date=20230927T171653, start_date=20230927T171705, end_date=20230927T171707
+[2023-09-27T17:17:07.955+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-09-27T17:17:08.643+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

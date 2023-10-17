@@ -1,0 +1,13 @@
+[2023-10-05T20:49:02.155+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: xcom_dag.t1 scheduled__2023-10-04T00:00:00+00:00 [queued]>
+[2023-10-05T20:49:02.200+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: xcom_dag.t1 scheduled__2023-10-04T00:00:00+00:00 [queued]>
+[2023-10-05T20:49:02.200+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-10-05T20:49:02.294+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): t1> on 2023-10-04 00:00:00+00:00
+[2023-10-05T20:49:02.304+0000] {standard_task_runner.py:57} INFO - Started process 478 to run task
+[2023-10-05T20:49:02.311+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'xcom_dag', 't1', 'scheduled__2023-10-04T00:00:00+00:00', '--job-id', '553', '--raw', '--subdir', 'DAGS_FOLDER/xcom_dag.py', '--cfg-path', '/tmp/tmp3kl4v0w6']
+[2023-10-05T20:49:02.318+0000] {standard_task_runner.py:85} INFO - Job 553: Subtask t1
+[2023-10-05T20:49:02.738+0000] {task_command.py:410} INFO - Running <TaskInstance: xcom_dag.t1 scheduled__2023-10-04T00:00:00+00:00 [running]> on host 6047a1c7123c
+[2023-10-05T20:49:02.982+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='xcom_dag' AIRFLOW_CTX_TASK_ID='t1' AIRFLOW_CTX_EXECUTION_DATE='2023-10-04T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-04T00:00:00+00:00'
+[2023-10-05T20:49:03.020+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-10-05T20:49:03.051+0000] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=xcom_dag, task_id=t1, execution_date=20231004T000000, start_date=20231005T204902, end_date=20231005T204903
+[2023-10-05T20:49:03.140+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-10-05T20:49:03.208+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

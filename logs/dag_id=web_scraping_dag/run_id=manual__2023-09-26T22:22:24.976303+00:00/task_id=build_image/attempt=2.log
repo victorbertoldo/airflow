@@ -1,0 +1,40 @@
+[2023-09-26T22:27:23.490+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: web_scraping_dag.build_image manual__2023-09-26T22:22:24.976303+00:00 [queued]>
+[2023-09-26T22:27:23.508+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: web_scraping_dag.build_image manual__2023-09-26T22:22:24.976303+00:00 [queued]>
+[2023-09-26T22:27:23.508+0000] {taskinstance.py:1308} INFO - Starting attempt 2 of 2
+[2023-09-26T22:27:23.525+0000] {taskinstance.py:1327} INFO - Executing <Task(DockerOperator): build_image> on 2023-09-26 22:22:24.976303+00:00
+[2023-09-26T22:27:23.530+0000] {standard_task_runner.py:57} INFO - Started process 177 to run task
+[2023-09-26T22:27:23.535+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'web_scraping_dag', 'build_image', 'manual__2023-09-26T22:22:24.976303+00:00', '--job-id', '188', '--raw', '--subdir', 'DAGS_FOLDER/web_scrapping_test.py', '--cfg-path', '/tmp/tmpsywtkjsq']
+[2023-09-26T22:27:23.536+0000] {standard_task_runner.py:85} INFO - Job 188: Subtask build_image
+[2023-09-26T22:27:23.593+0000] {task_command.py:410} INFO - Running <TaskInstance: web_scraping_dag.build_image manual__2023-09-26T22:22:24.976303+00:00 [running]> on host ad914e625908
+[2023-09-26T22:27:23.675+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='web_scraping_dag' AIRFLOW_CTX_TASK_ID='build_image' AIRFLOW_CTX_EXECUTION_DATE='2023-09-26T22:22:24.976303+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-09-26T22:22:24.976303+00:00'
+[2023-09-26T22:27:23.752+0000] {docker.py:334} INFO - Starting docker container from image my_selenium_image
+[2023-09-26T22:27:24.572+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/client.py", line 268, in _raise_for_status
+    response.raise_for_status()
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: http+docker://localhost/v1.41/containers/b49b3f58335fcdcc3d0f23cfebf0be4dc29dd8f9cd81223e0487113551a097f9/start
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/docker/operators/docker.py", line 478, in execute
+    return self._run_image()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/docker/operators/docker.py", line 351, in _run_image
+    return self._run_image_with_mounts(self.mounts, add_tmp_variable=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/docker/operators/docker.py", line 397, in _run_image_with_mounts
+    self.cli.start(self.container["Id"])
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/utils/decorators.py", line 19, in wrapped
+    return f(self, resource_id, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/container.py", line 1127, in start
+    self._raise_for_status(res)
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/client.py", line 270, in _raise_for_status
+    raise create_api_error_from_http_exception(e) from e
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/errors.py", line 39, in create_api_error_from_http_exception
+    raise cls(e, response=response, explanation=explanation) from e
+docker.errors.APIError: 400 Client Error for http+docker://localhost/v1.41/containers/b49b3f58335fcdcc3d0f23cfebf0be4dc29dd8f9cd81223e0487113551a097f9/start: Bad Request ("failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: exec: "docker": executable file not found in $PATH: unknown")
+[2023-09-26T22:27:24.581+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=web_scraping_dag, task_id=build_image, execution_date=20230926T222224, start_date=20230926T222723, end_date=20230926T222724
+[2023-09-26T22:27:24.597+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 188 for task build_image (400 Client Error for http+docker://localhost/v1.41/containers/b49b3f58335fcdcc3d0f23cfebf0be4dc29dd8f9cd81223e0487113551a097f9/start: Bad Request ("failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: exec: "docker": executable file not found in $PATH: unknown"); 177)
+[2023-09-26T22:27:24.631+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-09-26T22:27:24.658+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

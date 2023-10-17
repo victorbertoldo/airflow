@@ -1,0 +1,23 @@
+[2023-09-27T17:05:13.845+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: web_scraping_dag.see_containers manual__2023-09-27T17:03:16.134495+00:00 [queued]>
+[2023-09-27T17:05:13.902+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: web_scraping_dag.see_containers manual__2023-09-27T17:03:16.134495+00:00 [queued]>
+[2023-09-27T17:05:13.903+0000] {taskinstance.py:1308} INFO - Starting attempt 2 of 2
+[2023-09-27T17:05:14.010+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): see_containers> on 2023-09-27 17:03:16.134495+00:00
+[2023-09-27T17:05:14.044+0000] {standard_task_runner.py:57} INFO - Started process 2435 to run task
+[2023-09-27T17:05:14.052+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'web_scraping_dag', 'see_containers', 'manual__2023-09-27T17:03:16.134495+00:00', '--job-id', '289', '--raw', '--subdir', 'DAGS_FOLDER/web_scrapping_test.py', '--cfg-path', '/tmp/tmpgcy_csd8']
+[2023-09-27T17:05:14.065+0000] {standard_task_runner.py:85} INFO - Job 289: Subtask see_containers
+[2023-09-27T17:05:14.317+0000] {task_command.py:410} INFO - Running <TaskInstance: web_scraping_dag.see_containers manual__2023-09-27T17:03:16.134495+00:00 [running]> on host 99db4f9ebf5f
+[2023-09-27T17:05:14.779+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='web_scraping_dag' AIRFLOW_CTX_TASK_ID='see_containers' AIRFLOW_CTX_EXECUTION_DATE='2023-09-27T17:03:16.134495+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-09-27T17:03:16.134495+00:00'
+[2023-09-27T17:05:14.784+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-09-27T17:05:14.786+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'docker ps']
+[2023-09-27T17:05:14.817+0000] {subprocess.py:86} INFO - Output:
+[2023-09-27T17:05:14.889+0000] {subprocess.py:93} INFO - Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/json": dial unix /var/run/docker.sock: connect: permission denied
+[2023-09-27T17:05:14.899+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2023-09-27T17:05:14.954+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 211, in execute
+    f"Bash command failed. The command returned a non-zero exit code {result.exit_code}."
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2023-09-27T17:05:14.981+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=web_scraping_dag, task_id=see_containers, execution_date=20230927T170316, start_date=20230927T170513, end_date=20230927T170514
+[2023-09-27T17:05:15.058+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 289 for task see_containers (Bash command failed. The command returned a non-zero exit code 1.; 2435)
+[2023-09-27T17:05:15.109+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-09-27T17:05:15.267+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

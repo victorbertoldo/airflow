@@ -1,0 +1,138 @@
+[2023-09-27T16:55:40.779+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: web_scraping_dag.run_container manual__2023-09-27T16:54:10.645104+00:00 [queued]>
+[2023-09-27T16:55:40.982+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: web_scraping_dag.run_container manual__2023-09-27T16:54:10.645104+00:00 [queued]>
+[2023-09-27T16:55:40.985+0000] {taskinstance.py:1308} INFO - Starting attempt 2 of 2
+[2023-09-27T16:55:41.300+0000] {taskinstance.py:1327} INFO - Executing <Task(DockerOperator): run_container> on 2023-09-27 16:54:10.645104+00:00
+[2023-09-27T16:55:41.366+0000] {standard_task_runner.py:57} INFO - Started process 2276 to run task
+[2023-09-27T16:55:41.401+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'web_scraping_dag', 'run_container', 'manual__2023-09-27T16:54:10.645104+00:00', '--job-id', '285', '--raw', '--subdir', 'DAGS_FOLDER/web_scrapping_test.py', '--cfg-path', '/tmp/tmpw5g7r9f8']
+[2023-09-27T16:55:41.415+0000] {standard_task_runner.py:85} INFO - Job 285: Subtask run_container
+[2023-09-27T16:55:43.304+0000] {task_command.py:410} INFO - Running <TaskInstance: web_scraping_dag.run_container manual__2023-09-27T16:54:10.645104+00:00 [running]> on host 99db4f9ebf5f
+[2023-09-27T16:55:47.132+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='web_scraping_dag' AIRFLOW_CTX_TASK_ID='run_container' AIRFLOW_CTX_EXECUTION_DATE='2023-09-27T16:54:10.645104+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-09-27T16:54:10.645104+00:00'
+[2023-09-27T16:55:48.980+0000] {docker.py:246} INFO - Starting docker container from image my_selenium_image
+[2023-09-27T16:56:01.765+0000] {docker.py:307} INFO - Exception managing chrome: Unable to discover proper chromedriver version in offline mode
+[2023-09-27T16:56:04.535+0000] {docker.py:307} INFO - Traceback (most recent call last):
+  File "/home/seluser/get_data.py", line 29, in <module>
+    start()
+  File "/home/seluser/get_data.py", line 8, in start
+    driver = webdriver.Chrome()
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/chromium/webdriver.py", line 56, in __init__
+    super().__init__(
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 205, in __init__
+    self.start_session(capabilities)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 289, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 344, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /opt/google/chrome/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+#0 0x55a59c7166c3 <unknown>
+#1 0x55a59c3ec1e7 <unknown>
+#2 0x55a59c41f526 <unknown>
+#3 0x55a59c41b69c <unknown>
+#4 0x55a59c45e23a <unknown>
+#5 0x55a59c454e93 <unknown>
+#6 0x55a59c427934 <unknown>
+#7 0x55a59c42871e <unknown>
+#8 0x55a59c6dbcc8 <unknown>
+#9 0x55a59c6dfc00 <unknown>
+#10 0x55a59c6ea1ac <unknown>
+#11 0x55a59c6e0818 <unknown>
+#12 0x55a59c6ad28f <unknown>
+#13 0x55a59c704e98 <unknown>
+#14 0x55a59c705069 <unknown>
+#15 0x55a59c715853 <unknown>
+#16 0x7faa3bb1c609 start_thread
+[2023-09-27T16:56:09.340+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/docker/operators/docker.py", line 343, in execute
+    return self._run_image()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/docker/operators/docker.py", line 265, in _run_image
+    return self._run_image_with_mounts(self.mounts, add_tmp_variable=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/docker/operators/docker.py", line 312, in _run_image_with_mounts
+    raise AirflowException('docker container failed: ' + repr(result) + f"lines {res_lines}")
+airflow.exceptions.AirflowException: docker container failed: {'Error': None, 'StatusCode': 1}lines Exception managing chrome: Unable to discover proper chromedriver version in offline mode
+Traceback (most recent call last):
+  File "/home/seluser/get_data.py", line 29, in <module>
+    start()
+  File "/home/seluser/get_data.py", line 8, in start
+    driver = webdriver.Chrome()
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/chromium/webdriver.py", line 56, in __init__
+    super().__init__(
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 205, in __init__
+    self.start_session(capabilities)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 289, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 344, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /opt/google/chrome/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+#0 0x55a59c7166c3 <unknown>
+#1 0x55a59c3ec1e7 <unknown>
+#2 0x55a59c41f526 <unknown>
+#3 0x55a59c41b69c <unknown>
+#4 0x55a59c45e23a <unknown>
+#5 0x55a59c454e93 <unknown>
+#6 0x55a59c427934 <unknown>
+#7 0x55a59c42871e <unknown>
+#8 0x55a59c6dbcc8 <unknown>
+#9 0x55a59c6dfc00 <unknown>
+#10 0x55a59c6ea1ac <unknown>
+#11 0x55a59c6e0818 <unknown>
+#12 0x55a59c6ad28f <unknown>
+#13 0x55a59c704e98 <unknown>
+#14 0x55a59c705069 <unknown>
+#15 0x55a59c715853 <unknown>
+#16 0x7faa3bb1c609 start_thread
+[2023-09-27T16:56:09.448+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=web_scraping_dag, task_id=run_container, execution_date=20230927T165410, start_date=20230927T165540, end_date=20230927T165609
+[2023-09-27T16:56:10.371+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 285 for task run_container (docker container failed: {'Error': None, 'StatusCode': 1}lines Exception managing chrome: Unable to discover proper chromedriver version in offline mode
+Traceback (most recent call last):
+  File "/home/seluser/get_data.py", line 29, in <module>
+    start()
+  File "/home/seluser/get_data.py", line 8, in start
+    driver = webdriver.Chrome()
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/chromium/webdriver.py", line 56, in __init__
+    super().__init__(
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 205, in __init__
+    self.start_session(capabilities)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 289, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 344, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /opt/google/chrome/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+#0 0x55a59c7166c3 <unknown>
+#1 0x55a59c3ec1e7 <unknown>
+#2 0x55a59c41f526 <unknown>
+#3 0x55a59c41b69c <unknown>
+#4 0x55a59c45e23a <unknown>
+#5 0x55a59c454e93 <unknown>
+#6 0x55a59c427934 <unknown>
+#7 0x55a59c42871e <unknown>
+#8 0x55a59c6dbcc8 <unknown>
+#9 0x55a59c6dfc00 <unknown>
+#10 0x55a59c6ea1ac <unknown>
+#11 0x55a59c6e0818 <unknown>
+#12 0x55a59c6ad28f <unknown>
+#13 0x55a59c704e98 <unknown>
+#14 0x55a59c705069 <unknown>
+#15 0x55a59c715853 <unknown>
+#16 0x7faa3bb1c609 start_thread; 2276)
+[2023-09-27T16:56:10.633+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-09-27T16:56:10.932+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

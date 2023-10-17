@@ -1,0 +1,23 @@
+[2023-09-27T13:55:27.189+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: web_scraping_dag.build_image manual__2023-09-27T13:55:25.372762+00:00 [queued]>
+[2023-09-27T13:55:27.199+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: web_scraping_dag.build_image manual__2023-09-27T13:55:25.372762+00:00 [queued]>
+[2023-09-27T13:55:27.200+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2023-09-27T13:55:27.216+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): build_image> on 2023-09-27 13:55:25.372762+00:00
+[2023-09-27T13:55:27.223+0000] {standard_task_runner.py:57} INFO - Started process 88 to run task
+[2023-09-27T13:55:27.226+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'web_scraping_dag', 'build_image', 'manual__2023-09-27T13:55:25.372762+00:00', '--job-id', '260', '--raw', '--subdir', 'DAGS_FOLDER/web_scrapping_test.py', '--cfg-path', '/tmp/tmpihzhmfao']
+[2023-09-27T13:55:27.227+0000] {standard_task_runner.py:85} INFO - Job 260: Subtask build_image
+[2023-09-27T13:55:27.284+0000] {task_command.py:410} INFO - Running <TaskInstance: web_scraping_dag.build_image manual__2023-09-27T13:55:25.372762+00:00 [running]> on host 0908c3cef604
+[2023-09-27T13:55:27.376+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='web_scraping_dag' AIRFLOW_CTX_TASK_ID='build_image' AIRFLOW_CTX_EXECUTION_DATE='2023-09-27T13:55:25.372762+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-09-27T13:55:25.372762+00:00'
+[2023-09-27T13:55:27.377+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-09-27T13:55:27.378+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'docker build -f Dockerfile-selenium -t my_selenium_image . --tag sel_webscrap']
+[2023-09-27T13:55:27.387+0000] {subprocess.py:86} INFO - Output:
+[2023-09-27T13:55:27.412+0000] {subprocess.py:93} INFO - unable to prepare context: unable to evaluate symlinks in Dockerfile path: lstat /tmp/***tmp1o2s0ef7/Dockerfile-selenium: no such file or directory
+[2023-09-27T13:55:27.414+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2023-09-27T13:55:27.425+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 211, in execute
+    f"Bash command failed. The command returned a non-zero exit code {result.exit_code}."
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2023-09-27T13:55:27.430+0000] {taskinstance.py:1350} INFO - Marking task as UP_FOR_RETRY. dag_id=web_scraping_dag, task_id=build_image, execution_date=20230927T135525, start_date=20230927T135527, end_date=20230927T135527
+[2023-09-27T13:55:27.446+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 260 for task build_image (Bash command failed. The command returned a non-zero exit code 1.; 88)
+[2023-09-27T13:55:27.479+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-09-27T13:55:27.505+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
