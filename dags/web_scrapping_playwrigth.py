@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.providers.docker.operators.docker import DockerOperator
-from airflow.operators.bash_operator import BashOperator
+
 
 default_args = {
     'owner': 'airflow',
@@ -20,20 +20,20 @@ dag = DAG(
     schedule_interval=timedelta(days=1),  # Set the frequency as needed
 )
 
+
 # Step : Run Docker Container
-run_container = DockerOperator(
-    task_id='run_container',
+run_container_test = DockerOperator(
+    task_id='run_container_test',
     image='test-playwright',
     container_name='playwright-webscrap',
     auto_remove=True,
-    command='python /home/pwuser/teste_playwrite.py', 
+    command='python /home/pwuser/teste_playwright.py', 
     docker_url='tcp://docker-socket-proxy:2375',
     network_mode='bridge',
     mount_tmp_dir=False,
     dag=dag,
 )
 
-# Step 3: Execute Script
-# Define the execution order
-run_container
-# build_image >> run_container 
+
+# Step 4: Execute Script
+run_container_test

@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  my_service:
+    image: test-playwright
+    volumes:
+      - ./downloads:/home/pwuser/downloads
